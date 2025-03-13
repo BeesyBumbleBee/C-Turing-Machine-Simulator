@@ -1,0 +1,74 @@
+_01X.
+01110111X00010010.
+Move to '_'
+2 3 3 4 2
+0 1 1 -1 0
+_ 0 1 X .
+Digit of first number
+2 5 6 4 2
+0 0 0 -1 0
+_ X X X .
+Digit is 0
+2 5 5 5 7
+0 1 1 1 -1
+_ 0 1 X .
+Digit is 1
+2 6 6 6 8
+0 1 1 1 -1
+_ 0 1 X .
+Digit was 0 determine second
+2 9 10 20 7
+0 0 0 0 -1
+_ . . X .
+Digit was 1 determine second
+2 10 11 20 8
+0 0 0 0 -1
+_ . . X .
+00
+12 9 9 9 9
+0 1 1 1 1
+0 0 1 _ .
+10
+12 10 10 10 10
+0 1 1 1 1
+1 0 1 _ .
+11
+13 11 11 11 11
+0 1 1 1 1
+0 0 1 _ .
+Go back to first number
+2 12 12 18 12
+0 -1 -1 1 -1
+_ 0 1 X .
+Go back to first number with carry
+2 13 13 14 13
+0 -1 -1 0 -1
+_ 0 1 X .
+Determine first number digit with carry
+2 6 15 14 2
+0 0 0 -1 0
+_ X X X .
+Digit is 1 with carry
+2 15 15 15 16
+0 1 1 1 -1
+_ 0 1 X .
+Digit was 1 with carry determine second
+2 11 17 20 16
+0 0 0 0 -1
+_ . . X .
+11 with carry
+13 17 17 17 17
+0 1 1 1 1
+1 0 1 X .
+Check if finished
+2 19 19 18 20
+0 -1 -1 1 0
+_ 0 1 X .
+Go back
+2 19 19 4 19
+0 -1 -1 -1 1
+_ 0 1 X .
+Put cursor on number and accept
+2 0 0 20 20
+0 0 0 1 1
+_ 0 1 X .
